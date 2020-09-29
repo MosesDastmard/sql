@@ -1,0 +1,13 @@
+Create Table Geo (ID int primary key,Name varchar(50),ParentID int)
+	
+	insert into geo values(1,'Iran', null)
+	insert into geo values(2,'Iraq', null)
+	insert into geo values(3,'Tehran', 1)
+	insert into geo values(4,'Varamin', 3)
+	insert into geo values(5,'Baghdad', 2)
+	insert into geo values(6,'Fars', 1)
+	insert into geo values(7,'Laar', 6)
+	insert into geo values(8,'Tehran', 3)
+	insert into geo values(9,'Shiraz', 6)
+	insert into geo values(10,'Mirdamad', 8)
+	insert into geo values(11,'GhasrDasht', 9)
